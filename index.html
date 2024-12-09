@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeamBer - Студенттерге арналған көмек</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>TeamBer - Студенттерге арналған көмек</h1>
+      <p>TeamBer платформасында студенттерге түрлі қызметтер көрсетіледі.</p>
+      <button class="menu-btn" onclick="toggleMenu()">Меню</button>
+      <div class="menu">
+        <a href="services.html">Қызметтер</a>
+        <a href="#feedback">Пікірлер</a>
+        <a href="#offer-your-skill">Өз қабілетіңізді ұсыныңыз</a>
+        <a href="#contact">Байланыс</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Басты бет мазмұны -->
+  <section>
+    <h2>Басты бет</h2>
+    <p>TeamBer - студенттердің бір-біріне көмектесуі мен өз қабілеттерін дамытуына арналған платформа.</p>
+    <a href="services.html" class="btn">Қызметтерді көру</a>
+  </section>
+
+  <!-- Өз қабілетіңізді ұсыныңыз -->
+  <section id="offer-your-skill">
+    <h2>Өз қабілетіңізді ұсыныңыз</h2>
+    <p>Қабілетіңіз арқылы ақша табыңыз! Табыс көзінің <strong>80%</strong> сізге тиесілі, <strong>20%</strong> платформа комиссиясы ретінде сақталады.</p>
+    <a href="https://wa.me/77076174065?text=Өз%20қабілетімді%20ұсынғым%20келеді" target="_blank" class="btn">Қабілетіңізді ұсыныңыз</a>
+  </section>
+
+  <!-- Пікірлер -->
+  <section id="feedback">
+    <h2>Пікірлер</h2>
+    <p>Сайт туралы ойыңыз немесе ұсынысыңыз бар ма? Telegram арнамызға пікір қалдырыңыз:</p>
+    <a href="https://t.me/teamber_otziv" target="_blank" class="btn">Telegram-ға өту</a>
+  </section>
+
+  <!-- Байланыс -->
+  <section id="contact">
+    <h2>Байланыс</h2>
+    <p>Instagram арқылы бізбен байланысыңыз:</p>
+    <a href="https://www.instagram.com/teamber_sd/profilecard/?igsh=eWRrcGgza3EyZTUy" target="_blank" class="btn">Instagram-ға өту</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TeamBer. Барлық құқықтар қорғалған.</p>
+  </footer>
+
+</body>
+</html>
